@@ -1,0 +1,4 @@
+{
+  "_comment": "Alert channels for scheduled mode (--run). One alert per hour, only when the cushion gate passes. OFF until the backtest and some live calls have been reviewed; this Mac hides notification bodies, so the call rides in the banner title and sound is the reliable channel. Set min_conf_override to loosen or tighten the gate without the weekly recalibration overwriting it.",
+  "alerts": { "banner": false, "sound": false }
+}

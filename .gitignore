@@ -1,0 +1,5 @@
+__pycache__/
+*.log
+data/spot-*.json
+data/kalshi-candles-1h.json
+data/state.json

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.dhruv.kalshibtc1h</string>
+  <key>ProgramArguments</key><array><string>/Users/dhruvpatel/.venvs/market-ml/bin/python</string><string>/Users/dhruvpatel/kalshi-btc-1h-agent/agent.py</string><string>--run</string></array>
+  <key>WorkingDirectory</key><string>/Users/dhruvpatel/kalshi-btc-1h-agent</string>
+  <key>StartCalendarInterval</key><array><dict/></array>
+  <key>EnvironmentVariables</key><dict>
+    <key>PATH</key><string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>DYLD_FALLBACK_LIBRARY_PATH</key><string>/Users/dhruvpatel/.venvs/market-ml/lib/python3.11/site-packages/torch/lib</string>
+  </dict>
+  <key>StandardOutPath</key><string>/Users/dhruvpatel/kalshi-btc-1h-agent/agent.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/dhruvpatel/kalshi-btc-1h-agent/agent.err.log</string>
+</dict>
+</plist>
